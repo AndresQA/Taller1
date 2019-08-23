@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white
+
+}
+
+@font-face {
+    font-family: "BlenderBold";
+    src: url("./src/font/Blender-Pro-Bold.otf");
+    font-family: "BlenderRegular";
+    src: url("./src/font/Blender\ Pro\ Book.ttf");
+  }
+
+  body{
+    font-family: "BlenderRegular", sans-serif;
+    background-color: rgb(12, 12, 12);
+  }
+
+header{
+    width: 100%;
+    /*
+    background: rgba(65,52,247,1);
+    background: -moz-linear-gradient(left, rgba(65,52,247,1) 0%, rgba(214,39,230,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(65,52,247,1)), color-stop(100%, rgba(214,39,230,1)));
+    background: -webkit-linear-gradient(left, rgba(65,52,247,1) 0%, rgba(214,39,230,1) 100%);
+    background: -o-linear-gradient(left, rgba(65,52,247,1) 0%, rgba(214,39,230,1) 100%);
+    background: -ms-linear-gradient(left, rgba(65,52,247,1) 0%, rgba(214,39,230,1) 100%);
+    background: linear-gradient(to right, rgba(65,52,247,1) 0%, rgba(214,39,230,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4134f7', endColorstr='#d627e6', GradientType=1 );
+    */
+    
+    background: black;
+    background-size: 400% 300%;
+
+    }
+    
+    .ancho{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    
+    
+    }
+    
+    .logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+    
+    }
+
+    .imglogo{
+        width: 50px;
+    }
+    
+    
+    
+    nav{
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 25px;
+    box-sizing: border-box;
+    
+    }
+    
+    nav ul li{
+            display: inline;
+    
+    }
+    
+    nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 65px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+    }
+    
+    nav ul li a:hover{
+    color:#0183CD;
+    
+    }
+
+
+ .banner{
+     background-image: url("/src/img/backgroundinfo.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     padding-bottom: 80px;
+     padding-top: 80px;
+     display:flex;
+     justify-content: space-around;
+     align-content: center;
+ }
+
+ .descriptionbuy{
+     display: flex;
+     flex-direction: column;
+ }
+
+ .info{
+
+ }
+
+
+ .masinfo{
+     position: relative;
+     top: -125px;
+     left: 180px;;
+
+ }
+
+ .comprar{
+    position: relative;
+    top: 10px;
+    left: 95px;;
+
+ }
+
+ .title{
+     margin-top: 40px;
+     padding-left: 60px;
+     padding-top: 20px;
+     background-color: #C20280;
+     width: 490px;
+     height: 50px;
+
+ }
+
+ .spaceC{
+     margin-bottom: 40px; 
+ }
+
+ .about{
+        background-image: url("/src/img/abouybackground.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-bottom: 110px;
+        padding-top: 80px;
+ }
+
+ .description{
+    text-align: right;
+    margin-bottom: 50px;
+ }
+
+ .characteristics{
+display: flex;
+justify-content: space-around;
+align-content: center;
+
+ }
+ .cards{
+     width: 20%;
+ }
+
+ .explorer{
+    background-image: url("/src/img/explora.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 110px;
+    padding-top: 780px;
+ }
+
+ .media{
+    background-image: url("/src/img/media.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 110px;
+    padding-top: 780px;
+ }
